@@ -36,4 +36,4 @@ Let the festivities begin:
 
 
 Other Links:
-[Lab Report 1](https://ddavevo.github.io/cse15l-lab-reports-repo>/lab-report-1-week-2.html) 
+[Lab Report 1](https://ddavevo.github.io/cse15l-lab-reports/lab-report-1-week-2.html) 
