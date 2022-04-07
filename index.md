@@ -33,3 +33,7 @@ Let the festivities begin:
 
 `Image (~[Image Name] (URL)`
 ![sungod](https://user-images.githubusercontent.com/73847942/162285215-427ea37c-2025-48e5-ae7f-44e741888e17.jpeg)
+
+
+Other Links:
+[Lab Report 1](https://ddavevo.github.io/cse15l-lab-reports-repo>/lab-report-1-week-2.html) 
