@@ -2,7 +2,9 @@
 
 _written by Dave Vo_ | _4/8/22, SP22 (Week 2)_
 
-Intro: TODO
+#
+
+Acclimating yourself to the server-client work environment can open up the collaborative coding space, making project development more efficient from a holistic perspective. Here's how to get the basics down.
 
 #
 ## Setting Up Visual Studio Code
