@@ -112,5 +112,3 @@ Once more, you will asked for your password to confirm the command, but once you
 It is possible to run server commands from the client. To do this, you use the `$ ssh cs15lsp22[###]@ieng6.ucsd.edu` command, like how you would login normally. Except, you would insert commands to the right in parentheses, separating commands using semicolons.
 
 ![](6.%20Remote-Server%20Commands.png)
-
-#
