@@ -35,7 +35,7 @@ Let the festivities begin:
 ![sungod](https://user-images.githubusercontent.com/73847942/162285215-427ea37c-2025-48e5-ae7f-44e741888e17.jpeg)
 
 
-Other Links:
-[Lab 2](https://ddavevo.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+`Other Links:`
 
+[Lab 2](https://ddavevo.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 [Lab 1 - Report 2](https://ddavevo.github.io/cse15l-lab-reports/lab1report-week2/labreport.html)
