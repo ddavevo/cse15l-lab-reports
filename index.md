@@ -28,10 +28,12 @@
 I pray to the Sungod statue that the Sungod ticket website works for once...
 
 `Link ([Link Name] (URL)`
+
 Let the festivities begin:
 [Sungod 2022] (https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 `Image (~[Image Name] (URL)`
+
 ![sungod](https://user-images.githubusercontent.com/73847942/162285215-427ea37c-2025-48e5-ae7f-44e741888e17.jpeg)
 
 
