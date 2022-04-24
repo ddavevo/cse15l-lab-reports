@@ -41,4 +41,6 @@ Let the festivities begin:
 
 [Lab 2](https://ddavevo.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
-[Lab 1 - Report 2](https://ddavevo.github.io/cse15l-lab-reports/lab1report-week2/labreport.html)
+[Lab 1 - Week 2](https://ddavevo.github.io/cse15l-lab-reports/lab1report-week2/labreport.html)
+
+[Lab 2 - Week 4](https://ddavevo.github.io/cse15l-lab-reports/lab2report-week4/lab2report.html)
