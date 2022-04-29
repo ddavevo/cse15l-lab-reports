@@ -5,7 +5,7 @@
 ## 1. Handling Empty Lines
 #
 
-[test-file.md](https://github.com/Tyler-Culp/markdown-parser/commit/bef0fc4375834afad51ec981ee6b504dc696669d) is the failure-inducing input used to test the case when empty lines are in the markdown file.
+[test-file.md](https://github.com/Tyler-Culp/markdown-parser/commit/9dfa7a7f6488a69dae3522fc39471385cc74f2f6) is the failure-inducing input used to test the case when empty lines are in the markdown file.
 
 When the file is ran with the original code, an `OutOfMemory` error occurs.
 
