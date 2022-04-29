@@ -3,7 +3,6 @@
 `by Dave Vo | 4/24/22`
 
 ## 1. Handling Empty Lines
-#
 
 [test-file.md](https://github.com/Tyler-Culp/markdown-parser/commit/9dfa7a7f6488a69dae3522fc39471385cc74f2f6) is the failure-inducing input used to test the case when empty lines are in the markdown file.
 
@@ -20,7 +19,6 @@ To prevent the program from crashing, the program keeps track of a secondary cou
 When this failure-inducing input runs, both links will be read in. However, because the program only looks for specific characters such as `"]"`, when there is an empty line, the length of the markdown file is longer, plus the counter variable `currIndex` does not update in order to terminate the while loop condition, causing the `OutOfMemory` error.
 
 ## 2. Missing Closed Parentheses + Empty Lines
-#
 
 [breaking2.md](https://github.com/ddavevo/markdown-parser-davevo/commit/88c4e7610e778cd5a8fe73c66973ed88b2ef4b91#diff-4688022e1ac732f530523d38b22beb6757a26bd1046dc6fa5e91634089399566) is used to consider cases with missing characters in the typical link format.
 
@@ -35,7 +33,6 @@ With this fix, the program will pay attention to the end of the URL itself, cutt
 The failure-inducing input creates a symptomatic, unexpected output because it assumes the end of the link is indicated by the `")"`. The logical flaw is due to the rigid logic of what is considered a URL link. Instead, the URL should be read in based on the non-parenthetical characters.
 
 ## 3. Multiple Parentheses/Brackets
-#
 
 [breaking3.md](https://github.com/ddavevo/markdown-parser-davevo/commit/88c4e7610e778cd5a8fe73c66973ed88b2ef4b91#diff-4688022e1ac732f530523d38b22beb6757a26bd1046dc6fa5e91634089399566) is used to test how the program reads in the markdown link when there is a surplus of brackets/parentheses.
 
