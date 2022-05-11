@@ -72,7 +72,7 @@ Specifying the specific files looks like this (assuming there is an empty markdo
 
 `scp -r *.java *.md lib/ ieng6:markdown-parse`
 
-![](3.3-combiningSCPTest.png)
+![](3.3-combiningSCPJunit.png)
 
 To take the process one step further, I can chain multiple commands to both copy a directory and compile/run JUnit tests. I will break them down individually for clarity, but chaining can be done on only one line.
 
