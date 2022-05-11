@@ -1,7 +1,7 @@
 # **Lab 5: Group Choice Assignments**
 `by Dave Vo | 4/11/22`
 
-## 1. Streamlining `ssh` Configuration
+## 1. Streamlining ssh Configuration
 
 ![](1.1-sshConfig.png)
 
@@ -49,7 +49,7 @@ After running those commands, running `$ git push origin main` will successfully
 
 The repository's commit history will reflect the [newly pushed change](https://github.com/ddavevo/markdown-parser-davevo/commit/6fa4ac227b282bd055bdadea87b6d230f1de54ed) from the ieng6 server.
 
-## 3. Copying Directories with `scp -r`
+## 3. Copying Directories with scp -r
 
 ![](3.1-scpToRemote.png)
 
