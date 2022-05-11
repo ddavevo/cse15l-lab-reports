@@ -13,7 +13,6 @@ Host (aliasName)
     User (yourAccount)
 ```
 NOTE: I chose **ieng6** as my aliasName, but it can be anything.
-_________________
 
 ![](1.2-UsingConfig.png)
 
@@ -22,8 +21,6 @@ With that implemented, I can simply substitute my account name with the alias I 
 ![](1.3-ConfigSCP.png)
 
 The alias can be used beyond logging in with the `$ ssh` command. For instance, I can use my alias for the `$ scp` command. 
-
-________________
 
 # 2. Setting Up GitHub Access from ieng6 Remote Server
 
@@ -51,7 +48,6 @@ $ git remote set-url origin <SSH Link>
 After running those commands, running `$ git push origin main` will successfully update the main GitHub repository.
 
 The repository's commit history will reflect the [newly pushed change](https://github.com/ddavevo/markdown-parser-davevo/commit/6fa4ac227b282bd055bdadea87b6d230f1de54ed) from the ieng6 server.
-_____________________
 
 ## 3. Copying Directories with `scp -r`
 
