@@ -25,7 +25,7 @@
 
 ## My Repository's JUnit Test Results
 
-![](snippetpics-myrepo/3.testSnippet1Pass.png)
+![]()
 
 ![](snippetpics-myrepo/3.testSnippet2Fail.png)
 
@@ -33,7 +33,7 @@
 
 ## Other Repository's JUnit Test Results
 
-![](snippetpics-otherrepo/3.5.%20testSnippet1OtherPass.png)
+![]()
 
 ![](snippetpics-otherrepo/3.5.%20testSnippet2OtherFail.png)
 
