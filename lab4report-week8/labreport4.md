@@ -44,7 +44,7 @@ The first test case successfully extracts the URL links in snippet 1, but fails 
 
 However, the other repository's results differ from my results in the test cases that failed. Unlike mine for snippet 2, their repository did identify a link in the first line. Nonetheless, their parsing incorrectly extracted the nested link `a.com` in the brackets instead of the link in parentheses `b.com`.
 
-As as for snippet 3, their parsing logic performed slightly better since they managed to correctly extract the URL `https://www.twitter.com`.
+As as for snippet 3, their parsing logic performed slightly better since they managed to correctly extract the URL `https://www.twitter.com` at the beginning of the call instead of the end.
 
 ![](snippetpics-otherrepo/3.5.%20testSnippet1OtherPass.png)
 
@@ -60,8 +60,13 @@ MarkdownParse successfully handles Snippet 1 because the program logic does not 
 
 `Snippet 2`
 
-The first link `[a [nested link] (a.com)](b.com)` was not detected altogether 
+The first link `[a [nested link] (a.com)](b.com)` did not show up in what was returned because it was unintentionally removed when parsing. The cause of removal is an if condition that is supposed to handle image links, but if there is no exclamation mark, the first link always get taken out.
+
+The fix should be under 10 lines of code. The logic should first confirm if an exclamation mark exists, then remove the image link if the exclamation mark exists adjacently before the open bracket.
 
 `Snippet 3`
 
-s
+Having analyzed the error of Snippet 2, it appears the same logic error affected Snippet 3 in the same way. However, the first link ended up appearing in the end in the return because the program regressed and recognized the first link at the very end of the call. 
+
+For the rest of the markdown file, the problem is much more complex. It appears the logic regression is a result of the inability to properly deal with the missing closed parenthesis + the lack of handling empty space.
+While the process of fixing the code seems nuanced, the first thing that would help my code would be figuring out how to eliminate empty space.
