@@ -15,20 +15,13 @@
 
 ![](snippetpics-myrepo/2.%20testSnippet3Preview.png)
 
-## My Repository's Tests
+## Tests for Snippet Files
 ![](snippetpics-myrepo/1.%20testSnippet1.png)
 
 ![](snippetpics-myrepo/1.%20testSnippet2.png)
 
 ![](snippetpics-myrepo/1.%20testSnippet3.png)
 
-## Other Repository's Tests
-
-![](snippetpics-otherrepo/1.5.%20testSnippet1Other.png)
-
-![](snippetpics-otherrepo/1.5.%20testSnippet2Other.png)
-
-![](snippetpics-otherrepo/1.5.%20testSnippet3Other.png)
 
 ## My Repository's JUnit Test Results
 
