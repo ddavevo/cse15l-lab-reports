@@ -49,4 +49,4 @@ Let the festivities begin:
 
 [Lab 4 - Week 8](https://ddavevo.github.io/cse15l-lab-reports/lab4report-week8/labreport4.html)
 
-[Lab 5 - Week 10](https://ddavevo.github.io/cse15l-lab-reports/lab5report-week10/labreport5.html)
+[Lab 5 - Week 10](https://ddavevo.github.io/cse15l-lab-reports/labreport5-week10/labreport5.html)
