@@ -13,24 +13,49 @@ And for test file [367.md](https://github.com/ddavevo/markdown-parser-davevo/blo
 
 ![](1.2%20vimdiff-unnecessary-detection.png)
 
-// Which Implmentation(s) are Correct
+## Expected Outputs & Actual Outputs
+
+```
+Expected (142.md)
+```
 
 Using commonmark preview, I can see how the
 markdown files are interpreted and determine whether MarkdownParse should return anything.
 
 For `142.md`, since the markdown does not hold any semblance to the `[linkName](urlHere)` format, the expected result should be `[]` since there are no valid links to return.
 
-Referring back to my vimdiff analysis, the latter implementation correctly does not return anything while my implementation got stuck.
-
 ![](1.1%20142-foofunction.png)
 
+```
+Actual (142.md)
+```
 
-And for `367.md`, the same situation should happen here. There are no valid links, thus the return should be `[]`.
+ My implementation got stuck in an `OutOfMemoryError`.
 
-The vimdiff shows that the latter demonstrates the proper result while mine incorrectly mistook a non-link for a valid one.
+![](2.1.%20142-OutOfMemory.png)
+
+Conversely, the latter implementation correctly does not return anything.
+
+![](3.2.%20142-CorrectOutput.png)
+
+```
+Expected (367.md)
+```
+And for `367.md`, the same situation should happen here. `*(*foo)` is not a valid link, thus the return should be `[]`.
 
 ![](1.2%20367-foostar.png)
 
+```
+Actual (367.md)
+```
+
+My implementation incorrectly incorrectly mistook a non-link for a valid link.
+
+![](3.1%20367-InvalidLink.png)
+
+The latter demonstrates the proper result.
+
+![](3.3.%20367-CorrectOutput.png)
 
 // Show both acutal outputs & expected outputs (links expected)
 
