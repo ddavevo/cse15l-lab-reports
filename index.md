@@ -48,3 +48,5 @@ Let the festivities begin:
 [Lab 3 - Week 6](https://ddavevo.github.io/cse15l-lab-reports/lab3report-week6/labreport3.html)
 
 [Lab 4 - Week 8](https://ddavevo.github.io/cse15l-lab-reports/lab4report-week8/labreport4.html)
+
+[Lab 5 - Week 10](https://ddavevo.github.io/cse15l-lab-reports/lab5report-week10/labreport5.html)
